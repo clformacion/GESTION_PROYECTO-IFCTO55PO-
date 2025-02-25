@@ -26,17 +26,16 @@ while(($fila=mysqli_fetch_row($resultado))==true){
 
 
 
-    echo "<h1 style='text-align:center;margin-top:20px'>";
+    echo "<h1 style='text-align:center;margin-top:20px;color:blue'>";
     echo $fila[0];
     echo "</h1>";
 
 
     echo "<br>";
    
-    echo "<h4 style='margin-left:100px;margin-right:100px; text-align:justify;'>";
+    echo "<p style='margin-left:100px;margin-right:100px; text-align:justify;'>";
     echo $fila[1];
-    echo "</h4>";
-
+    echo "</p>";
 
     
 }
